@@ -1,0 +1,59 @@
+.back{
+    background-image: url(/assets/images/banner.jpg);
+}
+
+/**FOOTER SECTION**/
+.footer ul {
+list-style: none;
+  padding-left: 0;
+}
+.footer li{
+  font-size: 14px;
+
+}
+.footer {
+   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+opacity:0.8;
+    z-index:999;
+  color:white;
+  line-height:2.5;
+}
+.footer a {
+    text-decoration: none;
+  color: white;
+}
+.ftitle {
+  color:white;
+ font-size: 20px;
+  padding-bottom: 0.625rem;
+}
+.footer{
+    width:100%;
+    height:400px;
+    bottom:0;
+}
+.columns {
+    padding-top: 40px;
+    position:relative;
+float:left;
+    
+    padding-left: 70px;
+  width:20%;
+}
+.columns ul li img{
+    width: 150px;
+    height:50px;
+    padding-right: 20px;
+}
+
+
+
+/**COPYRIGHT**/
+.copyright{
+display: flex;
+    bottom:0;
+    width:100%;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}

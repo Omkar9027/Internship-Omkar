@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+ h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: black;
+}
+h1 span {
+	color: crimson;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  height:auto;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+    display: flex;
+  width: 100%;
+height:200px;  
+}
+.fakeimg img{
+    width:100%;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
